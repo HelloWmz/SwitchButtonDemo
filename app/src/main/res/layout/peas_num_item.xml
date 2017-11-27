@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/peas_num_ll"
+              android:layout_width="match_parent"
+              android:layout_height="40dp"
+              android:visibility="gone"
+              android:gravity="center_vertical"
+              android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="8dp"
+        android:gravity="center_vertical"
+        android:text="使用"
+        />
+
+    <TextView
+        android:id="@+id/tv_peas_num"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:background="@drawable/bg_super_item"
+        android:drawablePadding="8dp"
+        android:drawableRight="@mipmap/arrow_bottom"
+        android:gravity="center"
+        android:padding="2dp"
+        android:paddingBottom="3dp"
+        android:paddingEnd="8dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingStart="5dp"
+        android:paddingTop="3dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="京豆,"
+        />
+</LinearLayout>
