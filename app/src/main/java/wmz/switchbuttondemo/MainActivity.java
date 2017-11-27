@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity implements AddressUtils.OnWh
     TextView mTvPeasNum;
     @BindView(R.id.peas_num_ll)
     LinearLayout mPeasNumLl;
+
     private List<Integer> mBeans =new ArrayList<>();
 
     @Override
